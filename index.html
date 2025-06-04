@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/avatar-perfil.png.jpeg" alt="avatar do Jonas" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Jonas</p>
+        <h1>Eu aprendo Programação</h1>
+        <p>Sou aluno do ensino medio da escola João Pedro Cardoso Dr. Aprendo sobre pensamento computacional usando HTML, CSS e JavaScript. Veja os projetos
+            que já desenvolvi!</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-1.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Divulgando o filme: Homeme aranha através do aranha verso</h5>
+                        <p class="card-text">Este projeto é uma página web que apresenta um canal do YouTube que
+                            esta fazendo a divulgação e a critica do filme </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-2.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Decidindo o Futuro: Uma Jornada Interativa sobre a Inteligência
+                            Artificial(projeto da professora da curso)</h5>
+                        <p class="card-text">Este projeto é um jogo interativo baseado em navegador que explora o
+                            impacto e as implicações da Inteligência Artificial (IA) na sociedade, permitindo que as
+                            pessoas jogadoras façam escolhas que influenciam o desenrolar de uma narrativa sobre o
+                            futuro da IA.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/projeto-3.png" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">cidade perdida: Uma Aventura Interativa
+                        </h5>
+                        <p class="card-text">Este projeto cria uma experiência interativa educativa sobre uma misteriosa cidade perdida no Brasil,
+                            buscando assim o uso da logica e do pensamento crítico </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O código HTML da página JSMFLIX estrutura um site simples, visualmente inspirado em serviços de
+                        streaming como a Netflix, mas com vídeos do YouTube. No topo da página, o cabeçalho <header> exibe 
+                            apenas o nome do site como um título fixo. Em seguida, a primeira seção chamada "chamada" serve 
+                            como destaque principal, promovendo o filme "Através do Aranhaverso", que é identificado tanto 
+                            pelo título <h1> quanto por uma hashtag <p>. Ao lado desse texto, há um vídeo incorporado diretamente 
+                            do YouTube usando a tag <iframe>, que permite ao usuário assistir ao trailer sem sair da página.</p>
+                    <p>A próxima seção, "categoria", tem como título "Filmes e séries" e funciona como uma galeria de vídeos.
+                        Nela, cada vídeo é representado por uma imagem em miniatura (<img>) que, ao ser clicada, redireciona
+                        o usuário para o vídeo correspondente no YouTube via um link (<a>). As imagens são miniaturas padrão
+                            do YouTube, obtidas a partir da URL https://img.youtube.com/vi/[ID]/maxresdefault.jpg, onde o [ID] 
+                            é o identificador único de cada vídeo. Isso permite que a galeria pareça visualmente coesa e rica, 
+                            mesmo sem armazenar imagens localmente.</p>
+                    <p>Além disso, o site utiliza uma fonte moderna e estilizada (Chakra Petch) para dar uma identidade visual mais 
+                        sofisticada ao texto, que é carregada diretamente do Google Fonts. O código também inclui otimizações de 
+                        carregamento de fonte com preconnect, acelerando o desempenho. Embora o código HTML mostre apenas a 
+                        estrutura, é o arquivo CSS externo (styles.css) que realmente determina a aparência visual (cores, tamanhos, 
+                        posicionamento etc.). No geral, trata-se de uma página estática, sem interatividade dinâmica via JavaScript,
+                        com o objetivo de apresentar vídeos de forma organizada, visualmente atraente e acessível. Se você quiser, posso
+                        ajudar a criar o styles.css para essa página ou adicionar funcionalidades extras, como filtros, animações ou 
+                        responsividade.</p>
+                    <img src="img/projeto-1.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://github.com/jonasgaelcosta/jms">Ver projeto ao vivo</a>
+                    <a href="https://jonasgaelcosta.github.io/jms/">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em uma aplicação web interativa, desenvolvida com HTML, CSS, e JavaScript, que
+                        simula uma experiência narrativa centrada no tema da Inteligência Artificial. O objetivo é
+                        engajar os jogadores em um cenário fictício que aborda o avanço da IA e suas possíveis
+                        consequências para a humanidade, destacando a importância da reflexão ética sobre a tecnologia.
+                    </p>
+                    <p>O HTML estrutura o conteúdo da página, dividindo-o em seções como a tela inicial, caixa de
+                        perguntas, alternativas de resposta, e o resultado final baseado nas escolhas do jogador. O CSS
+                        é utilizado para estilizar a página, empregando um esquema de cores futurista e layout
+                        responsivo para melhorar a experiência do usuário. JavaScript é usado para adicionar
+                        interatividade ao jogo, manipulando o DOM para atualizar o conteúdo da página conforme as
+                        escolhas do jogador, e determinando o fluxo da narrativa através de uma série de perguntas e
+                        respostas.</p>
+                    <p>O HTML organiza o conteúdo em um cabeçalho com o título do site, seguido por uma divisão
+                        principal (.container) que apresenta o propósito do site e a coleção de livros em uma seção
+                        flexível (.livros). Cada livro é destacado em seu próprio contêiner (.livro), mostrando uma
+                        imagem da capa, detalhes do livro e um link de compra. O design responsivo é garantido pelo
+                        uso de uma meta tag viewport e um layout flexível que se adapta a diferentes tamanhos de
+                        tela.</p>
+                    <p>Os scripts JavaScript incluem módulos para gerar nomes aleatórios, definir as perguntas e as
+                        lógicas de jogo, como iniciar o jogo, apresentar perguntas e alternativas, processar as escolhas
+                        dos jogadores, e exibir o resultado final. Este design modular facilita a manutenção e a
+                        expansão futura do jogo. A importância das ferramentas utilizadas (HTML, CSS, JavaScript) reside
+                        na criação de uma experiência interativa que não apenas entretém, mas também educa os jogadores
+                        sobre a complexidade ética e social da IA, incentivando a reflexão crítica sobre o papel da
+                        tecnologia em nossas vidas.
+                    </p>
+                    <img src="img/projeto-2.png" class="img-fluid w-100"
+                        alt="Imagem representativa do projeto de uma biblioteca online">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://femascheti.github.io/tecnicas-computacionais-refletindo-sobre-ia/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://github.com/femascheti/tecnicas-computacionais-refletindo-sobre-ia">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Minha Biblioteca: Uma Webpage Personalizada</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto representa uma história interativa onde o usuário acompanha uma narrativa e toma
+                        decisões que afetam o rumo dos acontecimentos. Trata-se de uma espécie de "livro-jogo"
+                        online, estruturado em várias etapas que o leitor percorre clicando em botões de escolha.
+                        Na parte do cabeçalho, o documento define o título da página como "Em busca da cidade perdida",
+                        importa um arquivo CSS externo para estilização visual e também carrega uma fonte personalizada
+                        do Google Fonts chamada "Bai Jamjuree". Essas configurações garantem que o site tenha uma aparência 
+                        personalizada e adaptada a diferentes tamanhos de tela</p>
+                    <p>No corpo da página, todo o conteúdo principal está dentro da tag <main>, que contém diversas divisões 
+                        (<div>) com a classe "passo". Cada uma dessas divisões representa uma etapa da narrativa e possui um 
+                            id único, como "passo-0", "passo-1", e assim por diante. Apenas o primeiro passo começa visível,
+                            pois possui a classe adicional "ativo". Dentro de cada passo há texto descritivo que avança 
+                            a história, imagens ilustrativas em algumas partes e botões com a classe "btn-proximo". Esses botões
+                            são fundamentais para a navegação: cada um possui um atributo data-proximo que indica qual será o próximo
+                            passo da narrativa ao ser clicado. O comportamento de navegação entre os trechos da história é controlado
+                            por um arquivo JavaScript externo chamado script.js, que não foi incluído aqui, mas que provavelmente 
+                            é responsável por esconder e mostrar os diferentes "passos" com base nas escolhas do usuário. Em outras
+                            palavras, quando o usuário clica em um botão, o script interpreta o valor de data-proximo, desativa o passo 
+                            atual e ativa o novo passo correspondente ao número informado.</p>
+                    <p>A história em si é uma aventura que começa com a descoberta de uma carta sobre uma cidade perdida. A partir daí,
+                        o leitor escolhe entre ir para o Rio de Janeiro ou Pernambuco e, dependendo do caminho tomado, pode acabar
+                        encontrando pistas falsas, desistindo da aventura ou chegando ao destino final no Amazonas, onde está a cidade
+                        perdida. O enredo varia conforme as decisões do usuário, e há finais diferentes, incluindo sucesso na descoberta
+                        da cidade ou o retorno para casa sem completar a jornada.Em resumo, este código cria uma experiência narrativa
+                        imersiva e interativa na qual o leitor participa ativamente, decidindo os rumos da história através de cliques,
+                        sendo conduzido por uma lógica simples mas eficaz, com suporte visual e textual. Se você quiser, posso também 
+                        descrever como seria o conteúdo do script.js ou ajudar a modificar a história.</p>
+                    <img src="img/projeto-3.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://jonasgaelcosta.github.io/jsmg-adventures/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Jonas G. Costa </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
